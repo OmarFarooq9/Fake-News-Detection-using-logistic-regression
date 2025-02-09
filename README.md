@@ -37,3 +37,23 @@ The project follows a clear, step-by-step process:
    ```bash
    git clone https://github.com/your-username/fake-news-detection.git
    cd fake-news-detection
+   
+Install Dependencies:
+Make sure you have the required libraries installed:
+pip install numpy pandas nltk scikit-learn
+
+Download NLTK Stopwords:
+Run the following Python code to download the stopwords dataset:
+import nltk
+nltk.download('stopwords')
+
+Add the Dataset:
+Place the train.csv file in the project directory. You can find the dataset on Kaggle or use your own.
+
+Run the Notebook:
+Open the Jupyter Notebook (ML Project.ipynb) and follow the steps to preprocess the data, train the model, and make predictions.
+
+Results
+Training Accuracy: 98.66%
+
+Test Accuracy: 97.91%
