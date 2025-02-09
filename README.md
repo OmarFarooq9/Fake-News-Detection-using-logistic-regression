@@ -55,6 +55,6 @@ Place the train.csv file in the project directory. You can find the dataset on K
 Run the Notebook:
 Open the Jupyter Notebook (ML Project.ipynb) and follow the steps to preprocess the data, train the model, and make predictions.
 
-##Results
+## Results
    Training Accuracy: 98.66%
    Test Accuracy: 97.91%
